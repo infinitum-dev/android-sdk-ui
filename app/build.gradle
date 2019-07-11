@@ -28,7 +28,7 @@ android {
             bar(MavenPublication) {
                 groupId 'pt.fyi'
                 artifactId 'infinitum_ui'
-                version '0.0.1'
+                version '0.0.1a'
                 artifact(sourceJar)
                 artifact("$buildDir/outputs/aar/infinitum_ui-release.aar")
             }

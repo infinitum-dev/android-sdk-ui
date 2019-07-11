@@ -13,19 +13,28 @@ import pt.fyi.infinitum_ui.modules.object.slideshow.SlideshowParams;
 
 public class InfinitumUI {
 
-    public static Fragment getObjectList(ListParams params) {
-        return ListFragment.newInstance(params);
+    public static class Object {
+
+        public static Fragment getObjectList(ListParams params) {
+            return ListFragment.newInstance(params);
+        }
+
+        public static Fragment getObjectDetail(DetailParams params) {
+            return DetailFragment.newInstance(params);
+        }
+
+        public static Fragment getObjectSlideshow(SlideshowParams params) {
+            return SlideshowFragment.newInstance(params);
+        }
+
     }
 
-    public static Fragment getObjectDetail(DetailParams params) {
-        return DetailFragment.newInstance(params);
+    public static class Menu {
+
+        public static Fragment getMenuBottom(BottomMenuParams params) {
+            return BottomMenuFragment.newInstance(params);
+        }
+
     }
 
-    public static Fragment getObjectSlideshow(SlideshowParams params) {
-        return SlideshowFragment.newInstance(params);
-    }
-
-    public static Fragment getMenuBottom(BottomMenuParams params) {
-        return BottomMenuFragment.newInstance(params);
-    }
 }

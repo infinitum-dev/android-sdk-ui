@@ -1,4 +1,4 @@
-package pt.fyi.infinitum_ui.modules.object.slideshow;
+package pt.fyi.infinitum_ui.modules.object.slideshow.controllers;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -12,7 +12,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import pt.fyi.infinitum_ui.R;
-import pt.fyi.infinitum_ui.model.ObjectEntity;
+import pt.fyi.infinitum_ui.modules.object.ObjectEntity;
+import pt.fyi.infinitum_ui.modules.object.slideshow.SlideshowParams;
 
 public class SimpleSlideFragment extends Fragment {
 

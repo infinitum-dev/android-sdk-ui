@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import pt.fyi.infinitum_ui.R;
-import pt.fyi.infinitum_ui.model.ObjectEntity;
+import pt.fyi.infinitum_ui.modules.object.ObjectEntity;
 
 public class ListAdapter extends RecyclerView.Adapter<ListAdapter.AdapterViewHolder>{
 

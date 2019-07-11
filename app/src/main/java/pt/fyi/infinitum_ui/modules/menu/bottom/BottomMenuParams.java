@@ -2,7 +2,7 @@ package pt.fyi.infinitum_ui.modules.menu.bottom;
 
 import java.util.ArrayList;
 
-import pt.fyi.infinitum_ui.model.MenuEntity;
+import pt.fyi.infinitum_ui.modules.menu.MenuEntity;
 
 public class BottomMenuParams {
 

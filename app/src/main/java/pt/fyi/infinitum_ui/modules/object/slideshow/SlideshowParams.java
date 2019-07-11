@@ -3,7 +3,7 @@ package pt.fyi.infinitum_ui.modules.object.slideshow;
 import java.util.ArrayList;
 
 import pt.fyi.infinitum_ui.Utils;
-import pt.fyi.infinitum_ui.model.ObjectEntity;
+import pt.fyi.infinitum_ui.modules.object.ObjectEntity;
 import pt.fyi.infinitum_ui.modules.object.ObjectType;
 
 public class SlideshowParams {
@@ -20,19 +20,19 @@ public class SlideshowParams {
         this.callback = callback;
     }
 
-    SlideshowLayout getLayout() {
+    public SlideshowLayout getLayout() {
         return layout;
     }
 
-    ArrayList<ObjectEntity> getObjectList() {
+    public ArrayList<ObjectEntity> getObjectList() {
         return objectList;
     }
 
-    SlideshowCallback getCallback() {
+    public SlideshowCallback getCallback() {
         return callback;
     }
 
-    int getType() {
+    public int getType() {
         return type;
     }
 }

@@ -3,7 +3,7 @@ package pt.fyi.infinitum_ui.modules.object.list;
 import java.util.ArrayList;
 
 import pt.fyi.infinitum_ui.Utils;
-import pt.fyi.infinitum_ui.model.ObjectEntity;
+import pt.fyi.infinitum_ui.modules.object.ObjectEntity;
 import pt.fyi.infinitum_ui.modules.object.ObjectType;
 
 public class ListParams {

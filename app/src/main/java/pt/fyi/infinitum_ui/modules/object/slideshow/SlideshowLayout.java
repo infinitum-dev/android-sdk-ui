@@ -4,10 +4,10 @@ import android.graphics.Color;
 
 public class SlideshowLayout {
 
-    int background = Color.WHITE;
-    int headerBackground = Color.WHITE;
-    int titleColor = Color.BLACK;
-    int bodyColor = Color.BLACK;
+    public int background = Color.WHITE;
+    public int headerBackground = Color.WHITE;
+    public int titleColor = Color.BLACK;
+    public int bodyColor = Color.BLACK;
 
     /**
      *  Empty constructor for default values

@@ -1,6 +1,6 @@
 package pt.fyi.infinitum_ui.modules.object.detail;
 
-import pt.fyi.infinitum_ui.model.ObjectEntity;
+import pt.fyi.infinitum_ui.modules.object.ObjectEntity;
 
 public class DetailParams {
 

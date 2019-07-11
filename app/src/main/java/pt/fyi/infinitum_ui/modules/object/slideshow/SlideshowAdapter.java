@@ -5,6 +5,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 
+import pt.fyi.infinitum_ui.modules.object.slideshow.controllers.SimpleSlideFragment;
+
 public class SlideshowAdapter extends FragmentStatePagerAdapter implements ViewPager.OnPageChangeListener {
 
     private SlideshowParams mParams;

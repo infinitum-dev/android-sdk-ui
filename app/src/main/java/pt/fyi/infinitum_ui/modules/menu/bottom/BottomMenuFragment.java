@@ -2,13 +2,11 @@ package pt.fyi.infinitum_ui.modules.menu.bottom;
 
 import android.content.res.ColorStateList;
 import android.graphics.Color;
-import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
-import android.support.v7.view.menu.ActionMenuItem;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -16,7 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import pt.fyi.infinitum_ui.R;
-import pt.fyi.infinitum_ui.model.MenuEntity;
+import pt.fyi.infinitum_ui.modules.menu.MenuEntity;
 
 public class BottomMenuFragment extends Fragment {
 

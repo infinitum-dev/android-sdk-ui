@@ -1,6 +1,5 @@
-package pt.fyi.infinitum_ui.model;
+package pt.fyi.infinitum_ui.modules.menu;
 
-import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 
 public class MenuEntity {
