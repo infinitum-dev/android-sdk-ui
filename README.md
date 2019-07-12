@@ -60,7 +60,7 @@ Example of usage of module List:
                 
               }
             });
-  Fragment fragment = InfinitumUI.Object.getObjectList(params);
+  Fragment fragment = InfinitumUI.Object.list(params);
 
 ```
 
