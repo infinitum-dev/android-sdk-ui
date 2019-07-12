@@ -15,15 +15,15 @@ public class InfinitumUI {
 
     public static class Object {
 
-        public static Fragment getObjectList(ListParams params) {
+        public static Fragment list(ListParams params) {
             return ListFragment.newInstance(params);
         }
 
-        public static Fragment getObjectDetail(DetailParams params) {
+        public static Fragment detail(DetailParams params) {
             return DetailFragment.newInstance(params);
         }
 
-        public static Fragment getObjectSlideshow(SlideshowParams params) {
+        public static Fragment slideshow(SlideshowParams params) {
             return SlideshowFragment.newInstance(params);
         }
 
@@ -31,7 +31,7 @@ public class InfinitumUI {
 
     public static class Menu {
 
-        public static Fragment getMenuBottom(BottomMenuParams params) {
+        public static Fragment bottom(BottomMenuParams params) {
             return BottomMenuFragment.newInstance(params);
         }
 
